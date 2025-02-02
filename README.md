@@ -11,7 +11,7 @@
 - Member 3: Riya Roy     - Mar Athanasius College of Engineering
 
 ### Hosted Project Link
-
+https://nikhithaas.github.io/dynamic-traffic-analyser/
 
 ### Project Description
 The Dynamic Traffic Controlling System is an intelligent solution designed to revolutionize urban traffic management. By leveraging real-time traffic data, advanced sensors, and machine learning algorithms, this system dynamically adjusts traffic signal timings to optimize traffic flow, minimize congestion, and enhance road safety. Whether it's rush hour or late at night, the system intelligently adapts to varying traffic conditions, ensuring a smoother and more efficient commute for everyone.
@@ -53,10 +53,12 @@ For Software:
 ### Implementation
 For Software:
 Website created
+
 # Installation
-VS code, cursor
+pip install_r requirements.txt
+
 # Run
-[commands]
+python main.py
 
 ### Project Documentation
 For Software:DYNAMIC TRAFFIC CONTROLLING SYSTEM
@@ -104,42 +106,17 @@ this displays red in junction 1 and green in junction 2 for 30 second
 ![a6151989-440b-4df6-b2d7-740b107c00b2](https://github.com/user-attachments/assets/f60d3f5c-f94b-47a1-b35d-b0ff08fd02f2)
 Displays yellow light in both sides for 5 second
 
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
 
 # Build Photos
-![Team](Add photo of your team here)
+![e19d1c9e-ce73-46fa-925c-2a31886ebe6c](https://github.com/user-attachments/assets/21a0dba3-dba4-432d-b75f-3130daa902e8)
 
-
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
-
-# Additional Demos
-[Add any extra demo materials/links]
+https://www.loom.com/share/ffcc265b24a044ba8c97d18723ca156c?sid=ef6ada10-30c7-45fe-8cfd-7b5e4b5f68fa
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- A S Nikhitha - Front end
+- Nima Wilson  - Machine Learning
+- Riya Roy     - Prompt engineering
 
