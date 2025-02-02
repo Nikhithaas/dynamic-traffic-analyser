@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Signal Video Upload</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Upload Two Traffic Signal Videos</h1>
+
+        <form id="uploadForm" data-upload-folder="Videos">
+            <label for="file1">Traffic flow infront of Junction 1:</label>
+            <input type="file" id="file1" name="junction1" accept="video/*" required><br><br>
+
+            <label for="file2">Traffic flow infront of Junction 2:</label>
+            <input type="file" id="file2" name="junction2" accept="video/*" required><br><br>
+
+            <button type="submit">Upload and Analyze</button>
+        </form>
+
+        <div id="video-section" class="hidden">
+            <h2>Traffic Signal Status</h2>
+            <div class="traffic-lights">
+                <div class="light-container">
+                    <h3>Junction 1</h3>
+                    <img id="light1" 
+                         src="images/red.png" 
+                         alt="Red Light"
+                         onerror="this.onerror=null; this.style.backgroundColor='red'; this.style.border='2px solid black';">
+                    <div class="countdown-container">
+                        <div id="countdown1" class="countdown">00:00</div>
+                        <div id="state1" class="state-label"></div>
+                        <div id="density1" class="density-label"></div>
+                    </div>
+                </div>
+                <div class="light-container">
+                    <h3>Junction 2</h3>
+                    <img id="light2" 
+                         src="traffic_lights/green.jpeg" 
+                         alt="Green Light"
+                         onerror="this.onerror=null; console.log('Error loading green light image'); this.style.border='1px solid red';">
+                    <div class="countdown-container">
+                        <div id="countdown2" class="countdown">00:00</div>
+                        <div id="state2" class="state-label"></div>
+                        <div id="density2" class="density-label"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
