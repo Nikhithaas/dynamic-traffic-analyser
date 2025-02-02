@@ -94,14 +94,15 @@ The system also uses some basic techniques like contour detection and centroid t
 
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![image](https://github.com/user-attachments/assets/60f804c8-13d6-48b8-aaf7-38f71e8d7853)
+the number of vehicles passing in 10 second
+![ee9f21eb-033b-455e-a7b9-067b855ce905](https://github.com/user-attachments/assets/a6b542b9-9698-4b6a-b52e-a19635d6728d)
+this displays green in junction 1 and red in junction 2 for 30 second
+![e3228004-b0c3-41b4-9198-f93ec3b01bf5](https://github.com/user-attachments/assets/2fe2d855-b7f5-4d86-ba39-cb642d44a3b1)
+this displays red in junction 1 and green in junction 2 for 30 second
+![a6151989-440b-4df6-b2d7-740b107c00b2](https://github.com/user-attachments/assets/f60d3f5c-f94b-47a1-b35d-b0ff08fd02f2)
+Displays yellow light in both sides for 5 second
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
